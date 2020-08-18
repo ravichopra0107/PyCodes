@@ -1,0 +1,8 @@
+print("Enter list values:",end=" ")
+lst=list(map(int,input().split())) 
+print("List before: ",lst)
+print("Enter the two elements:",end=" ")
+a,b=map(int,input().split())
+lst.append(a)
+lst.append(b)
+print("List after: ",lst)
