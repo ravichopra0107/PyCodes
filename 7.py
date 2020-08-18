@@ -1,0 +1,6 @@
+print("Enter list values:",end=" ")
+lst=list(map(int,input().split())) 
+print("List before: ",lst)
+print("Enter element to find count of: ",end="")
+ele=int(input())
+print("Count = ",lst.count(ele))
