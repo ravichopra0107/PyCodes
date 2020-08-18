@@ -1,0 +1,5 @@
+print("Enter list values:",end=" ")
+lst=list(map(int,input().split())) 
+print("List before: ",lst)
+lst.sort()
+print("List after sort: ",lst)
