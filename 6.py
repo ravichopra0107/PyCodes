@@ -1,0 +1,5 @@
+print("Enter list values:",end=" ")
+lst=list(map(int,input().split())) 
+print("List before: ",lst)
+print("Max of list: ",max(lst))
+print("Min of list: ",min(lst))
